@@ -1,0 +1,40 @@
+https://om-nlb.qa.us-east-1.sandata.com/om/api/GenerateToken
+Headers
+		Content-Type		Application/json
+Body
+		{
+			"userName": "payer2@yopmail.com",
+			"password": "Admin@123123"
+		}
+	
+https://om-nlb.qa.us-east-1.sandata.com/om/api/Member
+Headers
+		Content-Type		Application/json
+		Accept				Application/json
+		Authorization		Bearer token
+		
+Body
+
+https://om-nlb.qa.us-east-1.sandata.com/om/api/Authorization
+Headers
+		Content-Type		Application/json
+		Accept				Application/json
+		Authorization		payer2qa
+		
+Body
+
+https://om-nlb.qa.us-east-1.sandata.com/om/api/Provider
+Headers
+		Content-Type		Application/json
+		Accept				Application/json
+		Authorization		Bearer token
+		
+Body
+
+https://om-nlb.qa.us-east-1.sandata.com/om/api/ProviderServices
+Headers
+		Content-Type		Application/json
+		Accept				Application/json
+		Authorization		Bearer token
+		
+Body
